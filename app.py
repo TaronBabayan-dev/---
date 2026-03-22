@@ -2,6 +2,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, ContextTypes
 import random
 
+import os
+TOKEN = os.getenv("TOKEN")
+
 TOKEN = "8680065940:AAFCqNfMUrYL0NEoeUHWPHSx0kc4qITlAx4"
 
 game = {
